@@ -66,9 +66,14 @@ class InfoViewController: UIViewController {
     }
     
     @objc func websiteTapped(sender: UIButton) {
-        if let websiteLink = viewModel.selectedSchool?.website,
-            let url = URL(string: websiteLink) {
-            openUrl(url: url)
+        if let websiteLink = viewModel.selectedSchool?.website {
+            let websiteUrl:URL?
+            if websiteLink.hasPrefix("http") {
+                websiteUrl = URL(string: websiteLink)
+            } else {
+                websiteUrl = URL(string: "http://"+websiteLink)
+            }
+            openUrl(url: websiteUrl!)
         }
     }
     
