@@ -29,6 +29,7 @@ class SubwayTableViewCell: UITableViewCell {
         }
     }
 
+    // creating labels to add Subway routes as a tags and show them in busses section in SchoolDetails screen.
     func subway(with tags:[String]) {
         var x_axis: CGFloat = 0.0
         var y_axis: CGFloat = 2

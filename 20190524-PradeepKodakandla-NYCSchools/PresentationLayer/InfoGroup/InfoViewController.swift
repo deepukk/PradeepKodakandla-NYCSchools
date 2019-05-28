@@ -41,7 +41,7 @@ class InfoViewController: UIViewController {
                                forCellReuseIdentifier:xibAndIdentifers.subwayXib)
     }
     
-    //MARK: Button Actions
+    //MARK: Contact cell Button Actions
     @objc func callTapped(sender: UIButton) {
         if let phoneNum = viewModel.selectedSchool?.phoneNumber,
             let phoneUrl = URL(string: "tel://\(phoneNum)") {
@@ -77,6 +77,7 @@ class InfoViewController: UIViewController {
         }
     }
     
+    // Mark: Opening Maps by passing location attributes
     func openMapForPlace(lat: CLLocationDegrees, lon: CLLocationDegrees,
                          schlName: String) {
         let regionDistance:CLLocationDistance = 1000
@@ -94,6 +95,7 @@ class InfoViewController: UIViewController {
         mapItem.openInMaps(launchOptions: options)
     }
     
+    // Mark: Lunching MFMailComposeViewcontoller by populating School administration office Email ID
     func launchEmail(with email: String) {
         if MFMailComposeViewController.canSendMail() {
             let mail = MFMailComposeViewController()
@@ -124,6 +126,7 @@ class InfoViewController: UIViewController {
         self.present(sendMailErrorAlert, animated: true, completion: nil)
     }
     
+    // Mark: Opening school website in safari browser
     func openUrl(url: URL) {
         UIApplication.shared.open(url)
     }

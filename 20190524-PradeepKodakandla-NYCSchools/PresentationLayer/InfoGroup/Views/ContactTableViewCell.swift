@@ -8,6 +8,7 @@
 
 import UIKit
 
+// Contacts Custom cell/view showing in detailed/information screen
 class ContactTableViewCell: UITableViewCell {
 
     @IBOutlet weak var locationButton: UIButton!

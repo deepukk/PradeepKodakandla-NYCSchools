@@ -14,6 +14,7 @@ class SchoolsAPI {
     private static let _defaultSession = URLSession(configuration: .default)
     private static var _dataTask: URLSessionDataTask?
     
+    // Get All schools info from api call
     static func fetchAllSchools(completion: @escaping((Result<[School]>) -> Void)) {
         guard let schoolsUrl = URL(string: SchoolAPI.schoolsUrl) else {
             return
@@ -31,6 +32,8 @@ class SchoolsAPI {
         })
         _dataTask?.resume()
     }
+    
+    // Process all schools information from response
     static func processSchoolsListRequest( data: Data?,
                                            error: Swift.Error?) -> Result<[School]> {
         
@@ -51,6 +54,7 @@ class SchoolsAPI {
         
     }
     
+    // Get SAT results from api call by passing #DBN
     static func getSatResult(for dbn: String ,
                              completion: @escaping((Result<[SATResult]>) -> Void)) {
         let urlString = SchoolAPI.satResultUrl + dbn
@@ -73,6 +77,7 @@ class SchoolsAPI {
         _dataTask?.resume()
     }
     
+    // Process SATResults from API response
     static func processSatResultRequest( data: Data?,
                                            error: Swift.Error?) -> Result<[SATResult]> {
         if let error = error {

@@ -18,6 +18,7 @@ class SATResultsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Mark: Initiating request to fetch all school info from given URL.
         fetchResult()
     }
 

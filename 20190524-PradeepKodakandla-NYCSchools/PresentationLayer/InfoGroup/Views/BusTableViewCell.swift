@@ -8,6 +8,8 @@
 
 import UIKit
 
+// Contacts BUSTableViewCell to show list of all bus rotes to this school in detailed/school information screen
+
 class BusTableViewCell: UITableViewCell {
 
     @IBOutlet weak var heightConst: NSLayoutConstraint!
@@ -29,6 +31,7 @@ class BusTableViewCell: UITableViewCell {
         }
     }
 
+    // creating labels to add bus routes as a tags and show them in busses section in SchoolDetails screen.
     func buses(with tags:[String]) {
         var x_axis: CGFloat = 0.0
         var y_axis: CGFloat = 2

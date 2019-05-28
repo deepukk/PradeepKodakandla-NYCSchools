@@ -20,6 +20,7 @@ class SchoolsViewController: UIViewController {
         fetchData()
     }
     
+    // 
     internal func fetchData() {
         //API call to get the schools
         ActivityIndicator.showActivityIndicator(view: self.view)
