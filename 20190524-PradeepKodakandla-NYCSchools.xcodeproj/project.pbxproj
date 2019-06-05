@@ -34,18 +34,7 @@
 		5CE40C5A22991C160078CAD4 /* SubwayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE40C5822991C160078CAD4 /* SubwayTableViewCell.xib */; };
 		5CE40C5C229B56490078CAD4 /* SATResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE40C5B229B56490078CAD4 /* SATResultsViewController.swift */; };
 		5CE40C5E229B5A2A0078CAD4 /* SATResultVeiwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE40C5D229B5A2A0078CAD4 /* SATResultVeiwModel.swift */; };
-		76224830229D48ED00C8C726 /* _0190524_PradeepKodakandla_NYCSchoolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7622482F229D48ED00C8C726 /* _0190524_PradeepKodakandla_NYCSchoolsTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		76224832229D48ED00C8C726 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5C36B80E229850A200FBA666 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C36B815229850A200FBA666;
-			remoteInfo = "20190524-PradeepKodakandla-NYCSchools";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5C36B816229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190524-PradeepKodakandla-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,20 +66,10 @@
 		5CE40C5822991C160078CAD4 /* SubwayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubwayTableViewCell.xib; sourceTree = "<group>"; };
 		5CE40C5B229B56490078CAD4 /* SATResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATResultsViewController.swift; sourceTree = "<group>"; };
 		5CE40C5D229B5A2A0078CAD4 /* SATResultVeiwModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATResultVeiwModel.swift; sourceTree = "<group>"; };
-		7622482D229D48ED00C8C726 /* 20190524-PradeepKodakandla-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190524-PradeepKodakandla-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7622482F229D48ED00C8C726 /* _0190524_PradeepKodakandla_NYCSchoolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0190524_PradeepKodakandla_NYCSchoolsTests.m; sourceTree = "<group>"; };
-		76224831229D48ED00C8C726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5C36B813229850A200FBA666 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7622482A229D48ED00C8C726 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				5C36B818229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools */,
-				7622482E229D48ED00C8C726 /* 20190524-PradeepKodakandla-NYCSchoolsTests */,
 				5C36B817229850A200FBA666 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				5C36B816229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools.app */,
-				7622482D229D48ED00C8C726 /* 20190524-PradeepKodakandla-NYCSchoolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,15 +202,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		7622482E229D48ED00C8C726 /* 20190524-PradeepKodakandla-NYCSchoolsTests */ = {
-			isa = PBXGroup;
-			children = (
-				7622482F229D48ED00C8C726 /* _0190524_PradeepKodakandla_NYCSchoolsTests.m */,
-				76224831229D48ED00C8C726 /* Info.plist */,
-			);
-			path = "20190524-PradeepKodakandla-NYCSchoolsTests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,24 +222,6 @@
 			productReference = 5C36B816229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7622482C229D48ED00C8C726 /* 20190524-PradeepKodakandla-NYCSchoolsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76224836229D48ED00C8C726 /* Build configuration list for PBXNativeTarget "20190524-PradeepKodakandla-NYCSchoolsTests" */;
-			buildPhases = (
-				76224829229D48ED00C8C726 /* Sources */,
-				7622482A229D48ED00C8C726 /* Frameworks */,
-				7622482B229D48ED00C8C726 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				76224833229D48ED00C8C726 /* PBXTargetDependency */,
-			);
-			name = "20190524-PradeepKodakandla-NYCSchoolsTests";
-			productName = "20190524-PradeepKodakandla-NYCSchoolsTests";
-			productReference = 7622482D229D48ED00C8C726 /* 20190524-PradeepKodakandla-NYCSchoolsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -284,10 +234,6 @@
 				TargetAttributes = {
 					5C36B815229850A200FBA666 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					7622482C229D48ED00C8C726 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 5C36B815229850A200FBA666;
 					};
 				};
 			};
@@ -305,7 +251,6 @@
 			projectRoot = "";
 			targets = (
 				5C36B815229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools */,
-				7622482C229D48ED00C8C726 /* 20190524-PradeepKodakandla-NYCSchoolsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -322,13 +267,6 @@
 				5C36B821229850A500FBA666 /* Assets.xcassets in Resources */,
 				5C5F51FE2298EE27009DA905 /* ContactTableViewCell.xib in Resources */,
 				5C36B81F229850A200FBA666 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7622482B229D48ED00C8C726 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,23 +300,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76224829229D48ED00C8C726 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76224830229D48ED00C8C726 /* _0190524_PradeepKodakandla_NYCSchoolsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		76224833229D48ED00C8C726 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C36B815229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools */;
-			targetProxy = 76224832229D48ED00C8C726 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5C36B81D229850A200FBA666 /* Main.storyboard */ = {
@@ -550,48 +472,6 @@
 			};
 			name = Release;
 		};
-		76224834229D48ED00C8C726 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27VJBKXGQJ;
-				INFOPLIST_FILE = "20190524-PradeepKodakandla-NYCSchoolsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.-0190524-PradeepKodakandla-NYCSchoolsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190524-PradeepKodakandla-NYCSchools.app/20190524-PradeepKodakandla-NYCSchools";
-			};
-			name = Debug;
-		};
-		76224835229D48ED00C8C726 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27VJBKXGQJ;
-				INFOPLIST_FILE = "20190524-PradeepKodakandla-NYCSchoolsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.-0190524-PradeepKodakandla-NYCSchoolsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190524-PradeepKodakandla-NYCSchools.app/20190524-PradeepKodakandla-NYCSchools";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -609,15 +489,6 @@
 			buildConfigurations = (
 				5C36B829229850A500FBA666 /* Debug */,
 				5C36B82A229850A500FBA666 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76224836229D48ED00C8C726 /* Build configuration list for PBXNativeTarget "20190524-PradeepKodakandla-NYCSchoolsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76224834229D48ED00C8C726 /* Debug */,
-				76224835229D48ED00C8C726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

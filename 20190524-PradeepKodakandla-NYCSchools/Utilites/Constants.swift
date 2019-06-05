@@ -19,6 +19,7 @@ enum Storyboard: String {
 }
 // Storyboard viewController identifier
 enum StoryboardID: String {
+    case schoolController        = "SchoolsViewController"
     case infoController          = "InfoViewController"
     case resultsVc               = "SATResultsViewController"
 
