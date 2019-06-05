@@ -34,7 +34,25 @@
 		5CE40C5A22991C160078CAD4 /* SubwayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE40C5822991C160078CAD4 /* SubwayTableViewCell.xib */; };
 		5CE40C5C229B56490078CAD4 /* SATResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE40C5B229B56490078CAD4 /* SATResultsViewController.swift */; };
 		5CE40C5E229B5A2A0078CAD4 /* SATResultVeiwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE40C5D229B5A2A0078CAD4 /* SATResultVeiwModel.swift */; };
+		76BF895922A81E150095617B /* _0190524_PradeepKodakandla_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF895822A81E150095617B /* _0190524_PradeepKodakandla_NYCSchoolsTests.swift */; };
+		76BF896522A81EE40095617B /* SchoolsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF896422A81EE40095617B /* SchoolsViewControllerTest.swift */; };
+		76BF896722A81EF60095617B /* SATResultViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF896622A81EF60095617B /* SATResultViewControllerTest.swift */; };
+		76BF896922A81F0A0095617B /* SchoolViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF896822A81F0A0095617B /* SchoolViewModelTest.swift */; };
+		76BF896B22A81F180095617B /* infoViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF896A22A81F180095617B /* infoViewModelTest.swift */; };
+		76BF896D22A81F2F0095617B /* MockSchoolsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF896C22A81F2F0095617B /* MockSchoolsData.swift */; };
+		76BF896F22A820090095617B /* satData.json in Resources */ = {isa = PBXBuildFile; fileRef = 76BF896E22A820090095617B /* satData.json */; };
+		76BF897122A820190095617B /* testSchoolData.json in Resources */ = {isa = PBXBuildFile; fileRef = 76BF897022A820190095617B /* testSchoolData.json */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76BF895B22A81E150095617B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C36B80E229850A200FBA666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C36B815229850A200FBA666;
+			remoteInfo = "20190524-PradeepKodakandla-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5C36B816229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190524-PradeepKodakandla-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,10 +84,27 @@
 		5CE40C5822991C160078CAD4 /* SubwayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubwayTableViewCell.xib; sourceTree = "<group>"; };
 		5CE40C5B229B56490078CAD4 /* SATResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATResultsViewController.swift; sourceTree = "<group>"; };
 		5CE40C5D229B5A2A0078CAD4 /* SATResultVeiwModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATResultVeiwModel.swift; sourceTree = "<group>"; };
+		76BF895622A81E150095617B /* 20190524-PradeepKodakandla-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190524-PradeepKodakandla-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BF895822A81E150095617B /* _0190524_PradeepKodakandla_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0190524_PradeepKodakandla_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		76BF895A22A81E150095617B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BF896422A81EE40095617B /* SchoolsViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsViewControllerTest.swift; sourceTree = "<group>"; };
+		76BF896622A81EF60095617B /* SATResultViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATResultViewControllerTest.swift; sourceTree = "<group>"; };
+		76BF896822A81F0A0095617B /* SchoolViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModelTest.swift; sourceTree = "<group>"; };
+		76BF896A22A81F180095617B /* infoViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewModelTest.swift; sourceTree = "<group>"; };
+		76BF896C22A81F2F0095617B /* MockSchoolsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSchoolsData.swift; sourceTree = "<group>"; };
+		76BF896E22A820090095617B /* satData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = satData.json; sourceTree = "<group>"; };
+		76BF897022A820190095617B /* testSchoolData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testSchoolData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5C36B813229850A200FBA666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BF895322A81E150095617B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				5C36B818229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools */,
+				76BF895722A81E150095617B /* 20190524-PradeepKodakandla-NYCSchoolsTests */,
 				5C36B817229850A200FBA666 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				5C36B816229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools.app */,
+				76BF895622A81E150095617B /* 20190524-PradeepKodakandla-NYCSchoolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +239,54 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		76BF895722A81E150095617B /* 20190524-PradeepKodakandla-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				76BF896322A81E650095617B /* PresentationLayerTest */,
+				76BF896222A81E620095617B /* ViewModelTests */,
+				76BF896122A81E5F0095617B /* Resources */,
+				76BF896022A81E5A0095617B /* Utility */,
+				76BF895822A81E150095617B /* _0190524_PradeepKodakandla_NYCSchoolsTests.swift */,
+				76BF895A22A81E150095617B /* Info.plist */,
+			);
+			path = "20190524-PradeepKodakandla-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		76BF896022A81E5A0095617B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				76BF896C22A81F2F0095617B /* MockSchoolsData.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		76BF896122A81E5F0095617B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76BF896E22A820090095617B /* satData.json */,
+				76BF897022A820190095617B /* testSchoolData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		76BF896222A81E620095617B /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				76BF896822A81F0A0095617B /* SchoolViewModelTest.swift */,
+				76BF896A22A81F180095617B /* infoViewModelTest.swift */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		76BF896322A81E650095617B /* PresentationLayerTest */ = {
+			isa = PBXGroup;
+			children = (
+				76BF896422A81EE40095617B /* SchoolsViewControllerTest.swift */,
+				76BF896622A81EF60095617B /* SATResultViewControllerTest.swift */,
+			);
+			path = PresentationLayerTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,18 +307,40 @@
 			productReference = 5C36B816229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools.app */;
 			productType = "com.apple.product-type.application";
 		};
+		76BF895522A81E150095617B /* 20190524-PradeepKodakandla-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BF895D22A81E150095617B /* Build configuration list for PBXNativeTarget "20190524-PradeepKodakandla-NYCSchoolsTests" */;
+			buildPhases = (
+				76BF895222A81E150095617B /* Sources */,
+				76BF895322A81E150095617B /* Frameworks */,
+				76BF895422A81E150095617B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76BF895C22A81E150095617B /* PBXTargetDependency */,
+			);
+			name = "20190524-PradeepKodakandla-NYCSchoolsTests";
+			productName = "20190524-PradeepKodakandla-NYCSchoolsTests";
+			productReference = 76BF895622A81E150095617B /* 20190524-PradeepKodakandla-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5C36B80E229850A200FBA666 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Pradeep Kodakandla";
 				TargetAttributes = {
 					5C36B815229850A200FBA666 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					76BF895522A81E150095617B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5C36B815229850A200FBA666;
 					};
 				};
 			};
@@ -251,6 +358,7 @@
 			projectRoot = "";
 			targets = (
 				5C36B815229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools */,
+				76BF895522A81E150095617B /* 20190524-PradeepKodakandla-NYCSchoolsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +375,15 @@
 				5C36B821229850A500FBA666 /* Assets.xcassets in Resources */,
 				5C5F51FE2298EE27009DA905 /* ContactTableViewCell.xib in Resources */,
 				5C36B81F229850A200FBA666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BF895422A81E150095617B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BF896F22A820090095617B /* satData.json in Resources */,
+				76BF897122A820190095617B /* testSchoolData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +417,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76BF895222A81E150095617B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BF896922A81F0A0095617B /* SchoolViewModelTest.swift in Sources */,
+				76BF896B22A81F180095617B /* infoViewModelTest.swift in Sources */,
+				76BF896522A81EE40095617B /* SchoolsViewControllerTest.swift in Sources */,
+				76BF895922A81E150095617B /* _0190524_PradeepKodakandla_NYCSchoolsTests.swift in Sources */,
+				76BF896722A81EF60095617B /* SATResultViewControllerTest.swift in Sources */,
+				76BF896D22A81F2F0095617B /* MockSchoolsData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76BF895C22A81E150095617B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C36B815229850A200FBA666 /* 20190524-PradeepKodakandla-NYCSchools */;
+			targetProxy = 76BF895B22A81E150095617B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5C36B81D229850A200FBA666 /* Main.storyboard */ = {
@@ -472,6 +610,48 @@
 			};
 			name = Release;
 		};
+		76BF895E22A81E150095617B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27VJBKXGQJ;
+				INFOPLIST_FILE = "20190524-PradeepKodakandla-NYCSchoolsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.-0190524-PradeepKodakandla-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190524-PradeepKodakandla-NYCSchools.app/20190524-PradeepKodakandla-NYCSchools";
+			};
+			name = Debug;
+		};
+		76BF895F22A81E150095617B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27VJBKXGQJ;
+				INFOPLIST_FILE = "20190524-PradeepKodakandla-NYCSchoolsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.-0190524-PradeepKodakandla-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190524-PradeepKodakandla-NYCSchools.app/20190524-PradeepKodakandla-NYCSchools";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -489,6 +669,15 @@
 			buildConfigurations = (
 				5C36B829229850A500FBA666 /* Debug */,
 				5C36B82A229850A500FBA666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BF895D22A81E150095617B /* Build configuration list for PBXNativeTarget "20190524-PradeepKodakandla-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BF895E22A81E150095617B /* Debug */,
+				76BF895F22A81E150095617B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
